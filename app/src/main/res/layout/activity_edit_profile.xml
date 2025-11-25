@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_midnight_gradient"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update your details below"
+            android:textColor="@color/accent_gold"
+            android:textSize="14sp"
+            android:layout_marginBottom="40dp"/>
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/bg_dark_input"
+            android:hint="Full Name"
+            android:textColorHint="#80FFFFFF"
+            android:textColor="@color/white"
+            android:paddingStart="20dp"
+            android:drawableStart="@android:drawable/ic_menu_my_calendar"
+            android:drawablePadding="15dp"
+            android:drawableTint="@color/accent_teal"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/bg_dark_input"
+            android:hint="Email Address"
+            android:textColorHint="#80FFFFFF"
+            android:textColor="@color/white"
+            android:paddingStart="20dp"
+            android:inputType="textEmailAddress"
+            android:drawableStart="@android:drawable/sym_action_email"
+            android:drawablePadding="15dp"
+            android:drawableTint="@color/accent_teal"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/bg_dark_input"
+            android:hint="Phone Number"
+            android:textColorHint="#80FFFFFF"
+            android:textColor="@color/white"
+            android:paddingStart="20dp"
+            android:inputType="phone"
+            android:drawableStart="@android:drawable/ic_menu_call"
+            android:drawablePadding="15dp"
+            android:drawableTint="@color/accent_teal"
+            android:layout_marginBottom="40dp"/>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="SAVE CHANGES"
+            android:textStyle="bold"
+            android:background="@drawable/bg_neon_button"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+</ScrollView>

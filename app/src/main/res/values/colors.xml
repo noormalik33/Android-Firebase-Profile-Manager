@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- UNIQUE PROFESSIONAL THEME: Midnight Teal -->
+    <color name="midnight_start">#0f2027</color>   <!-- Deep Navy -->
+    <color name="midnight_mid">#203a43</color>     <!-- Slate -->
+    <color name="midnight_end">#2c5364</color>     <!-- Blue Grey -->
+
+    <color name="accent_gold">#F2C94C</color>      <!-- Gold Accent -->
+    <color name="accent_teal">#00C9FF</color>      <!-- Bright Teal -->
+    <color name="btn_start">#00C9FF</color>        <!-- Button Gradient Start -->
+    <color name="btn_end">#92FE9D</color>          <!-- Button Gradient End -->
+
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B0BEC5</color>
+    <color name="input_bg">#2AFFFFFF</color>       <!-- Translucent Input -->
+</resources>

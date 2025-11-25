@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "280317800304",
+    "project_id": "lab-11-c304f",
+    "storage_bucket": "lab-11-c304f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280317800304:android:c3c128bb1b77774b6469b5",
+        "android_client_info": {
+          "package_name": "com.example.real_time_database"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280317800304-cp2o14t7aemrqemp15hcuf1n7jl8fu2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCknEvXsdM6y7OP3Imh-GK9to880uez3ug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280317800304-cp2o14t7aemrqemp15hcuf1n7jl8fu2c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
